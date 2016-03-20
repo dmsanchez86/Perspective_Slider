@@ -184,6 +184,44 @@ img {
         transform: translate3d(-500px, 0, -1300px) rotatey(0deg) scale(1); }
     .slider .slide:hover {
       z-index: 20; }
+  .slider .controls {
+    position: absolute;
+    bottom: 2rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center; }
+    .slider .controls button {
+      background: transparent;
+      padding: .7rem .91rem;
+      border: solid 2px #aaa;
+      color: white;
+      display: inline-block;
+      vertical-align: top;
+      cursor: pointer;
+      background: #aaa;
+      -webkit-transition: all 0.5s ease-in;
+      -khtml-transition: all 0.5s ease-in;
+      -moz-transition: all 0.5s ease-in;
+      -ms-transition: all 0.5s ease-in;
+      -o-transition: all 0.5s ease-in;
+      transition: all 0.5s ease-in;
+      -webkit-border-radius: 50%;
+      -khtml-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      border-radius: 50%;
+      -webkit-text-shadow: 0 0 1px #111;
+      -khtml-text-shadow: 0 0 1px #111;
+      -moz-text-shadow: 0 0 1px #111;
+      -ms-text-shadow: 0 0 1px #111;
+      -o-text-shadow: 0 0 1px #111;
+      text-shadow: 0 0 1px #111; }
+      .slider .controls button.active, .slider .controls button:hover {
+        background: transparent; }
+      .slider .controls button:focus {
+        outline: none; }
 
 .back_button {
   position: absolute;

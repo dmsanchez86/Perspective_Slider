@@ -81,84 +81,84 @@ img {
       border-radius: 5px; }
     .slider .slide:nth-child(1) {
       z-index: 10;
-      -webkit-transform: translate3d(445px, 150px, -2000px) rotatey(-45deg);
-      -khtml-transform: translate3d(445px, 150px, -2000px) rotatey(-45deg);
-      -moz-transform: translate3d(445px, 150px, -2000px) rotatey(-45deg);
-      -ms-transform: translate3d(445px, 150px, -2000px) rotatey(-45deg);
-      -o-transform: translate3d(445px, 150px, -2000px) rotatey(-45deg);
-      transform: translate3d(445px, 150px, -2000px) rotatey(-45deg); }
+      -webkit-transform: translate3d(445px, 210px, -2000px) rotatey(-45deg);
+      -khtml-transform: translate3d(445px, 210px, -2000px) rotatey(-45deg);
+      -moz-transform: translate3d(445px, 210px, -2000px) rotatey(-45deg);
+      -ms-transform: translate3d(445px, 210px, -2000px) rotatey(-45deg);
+      -o-transform: translate3d(445px, 210px, -2000px) rotatey(-45deg);
+      transform: translate3d(445px, 210px, -2000px) rotatey(-45deg); }
     .slider .slide:nth-child(2) {
       z-index: 9;
-      -webkit-transform: translate3d(490px, 100px, -2000px) rotatey(-45deg);
-      -khtml-transform: translate3d(490px, 100px, -2000px) rotatey(-45deg);
-      -moz-transform: translate3d(490px, 100px, -2000px) rotatey(-45deg);
-      -ms-transform: translate3d(490px, 100px, -2000px) rotatey(-45deg);
-      -o-transform: translate3d(490px, 100px, -2000px) rotatey(-45deg);
-      transform: translate3d(490px, 100px, -2000px) rotatey(-45deg); }
+      -webkit-transform: translate3d(490px, 160px, -2000px) rotatey(-45deg);
+      -khtml-transform: translate3d(490px, 160px, -2000px) rotatey(-45deg);
+      -moz-transform: translate3d(490px, 160px, -2000px) rotatey(-45deg);
+      -ms-transform: translate3d(490px, 160px, -2000px) rotatey(-45deg);
+      -o-transform: translate3d(490px, 160px, -2000px) rotatey(-45deg);
+      transform: translate3d(490px, 160px, -2000px) rotatey(-45deg); }
     .slider .slide:nth-child(3) {
       z-index: 8;
-      -webkit-transform: translate3d(535px, 50px, -2000px) rotatey(-45deg);
-      -khtml-transform: translate3d(535px, 50px, -2000px) rotatey(-45deg);
-      -moz-transform: translate3d(535px, 50px, -2000px) rotatey(-45deg);
-      -ms-transform: translate3d(535px, 50px, -2000px) rotatey(-45deg);
-      -o-transform: translate3d(535px, 50px, -2000px) rotatey(-45deg);
-      transform: translate3d(535px, 50px, -2000px) rotatey(-45deg); }
+      -webkit-transform: translate3d(535px, 110px, -2000px) rotatey(-45deg);
+      -khtml-transform: translate3d(535px, 110px, -2000px) rotatey(-45deg);
+      -moz-transform: translate3d(535px, 110px, -2000px) rotatey(-45deg);
+      -ms-transform: translate3d(535px, 110px, -2000px) rotatey(-45deg);
+      -o-transform: translate3d(535px, 110px, -2000px) rotatey(-45deg);
+      transform: translate3d(535px, 110px, -2000px) rotatey(-45deg); }
     .slider .slide:nth-child(4) {
       z-index: 7;
-      -webkit-transform: translate3d(580px, 0px, -2000px) rotatey(-45deg);
-      -khtml-transform: translate3d(580px, 0px, -2000px) rotatey(-45deg);
-      -moz-transform: translate3d(580px, 0px, -2000px) rotatey(-45deg);
-      -ms-transform: translate3d(580px, 0px, -2000px) rotatey(-45deg);
-      -o-transform: translate3d(580px, 0px, -2000px) rotatey(-45deg);
-      transform: translate3d(580px, 0px, -2000px) rotatey(-45deg); }
+      -webkit-transform: translate3d(580px, 60px, -2000px) rotatey(-45deg);
+      -khtml-transform: translate3d(580px, 60px, -2000px) rotatey(-45deg);
+      -moz-transform: translate3d(580px, 60px, -2000px) rotatey(-45deg);
+      -ms-transform: translate3d(580px, 60px, -2000px) rotatey(-45deg);
+      -o-transform: translate3d(580px, 60px, -2000px) rotatey(-45deg);
+      transform: translate3d(580px, 60px, -2000px) rotatey(-45deg); }
     .slider .slide:nth-child(5) {
       z-index: 6;
-      -webkit-transform: translate3d(625px, -50px, -2000px) rotatey(-45deg);
-      -khtml-transform: translate3d(625px, -50px, -2000px) rotatey(-45deg);
-      -moz-transform: translate3d(625px, -50px, -2000px) rotatey(-45deg);
-      -ms-transform: translate3d(625px, -50px, -2000px) rotatey(-45deg);
-      -o-transform: translate3d(625px, -50px, -2000px) rotatey(-45deg);
-      transform: translate3d(625px, -50px, -2000px) rotatey(-45deg); }
+      -webkit-transform: translate3d(625px, 10px, -2000px) rotatey(-45deg);
+      -khtml-transform: translate3d(625px, 10px, -2000px) rotatey(-45deg);
+      -moz-transform: translate3d(625px, 10px, -2000px) rotatey(-45deg);
+      -ms-transform: translate3d(625px, 10px, -2000px) rotatey(-45deg);
+      -o-transform: translate3d(625px, 10px, -2000px) rotatey(-45deg);
+      transform: translate3d(625px, 10px, -2000px) rotatey(-45deg); }
     .slider .slide:nth-child(6) {
       z-index: 5;
-      -webkit-transform: translate3d(670px, -100px, -2000px) rotatey(-45deg);
-      -khtml-transform: translate3d(670px, -100px, -2000px) rotatey(-45deg);
-      -moz-transform: translate3d(670px, -100px, -2000px) rotatey(-45deg);
-      -ms-transform: translate3d(670px, -100px, -2000px) rotatey(-45deg);
-      -o-transform: translate3d(670px, -100px, -2000px) rotatey(-45deg);
-      transform: translate3d(670px, -100px, -2000px) rotatey(-45deg); }
+      -webkit-transform: translate3d(670px, -40px, -2000px) rotatey(-45deg);
+      -khtml-transform: translate3d(670px, -40px, -2000px) rotatey(-45deg);
+      -moz-transform: translate3d(670px, -40px, -2000px) rotatey(-45deg);
+      -ms-transform: translate3d(670px, -40px, -2000px) rotatey(-45deg);
+      -o-transform: translate3d(670px, -40px, -2000px) rotatey(-45deg);
+      transform: translate3d(670px, -40px, -2000px) rotatey(-45deg); }
     .slider .slide:nth-child(7) {
       z-index: 4;
-      -webkit-transform: translate3d(715px, -150px, -2000px) rotatey(-45deg);
-      -khtml-transform: translate3d(715px, -150px, -2000px) rotatey(-45deg);
-      -moz-transform: translate3d(715px, -150px, -2000px) rotatey(-45deg);
-      -ms-transform: translate3d(715px, -150px, -2000px) rotatey(-45deg);
-      -o-transform: translate3d(715px, -150px, -2000px) rotatey(-45deg);
-      transform: translate3d(715px, -150px, -2000px) rotatey(-45deg); }
+      -webkit-transform: translate3d(715px, -90px, -2000px) rotatey(-45deg);
+      -khtml-transform: translate3d(715px, -90px, -2000px) rotatey(-45deg);
+      -moz-transform: translate3d(715px, -90px, -2000px) rotatey(-45deg);
+      -ms-transform: translate3d(715px, -90px, -2000px) rotatey(-45deg);
+      -o-transform: translate3d(715px, -90px, -2000px) rotatey(-45deg);
+      transform: translate3d(715px, -90px, -2000px) rotatey(-45deg); }
     .slider .slide:nth-child(8) {
       z-index: 3;
-      -webkit-transform: translate3d(760px, -200px, -2000px) rotatey(-45deg);
-      -khtml-transform: translate3d(760px, -200px, -2000px) rotatey(-45deg);
-      -moz-transform: translate3d(760px, -200px, -2000px) rotatey(-45deg);
-      -ms-transform: translate3d(760px, -200px, -2000px) rotatey(-45deg);
-      -o-transform: translate3d(760px, -200px, -2000px) rotatey(-45deg);
-      transform: translate3d(760px, -200px, -2000px) rotatey(-45deg); }
+      -webkit-transform: translate3d(760px, -140px, -2000px) rotatey(-45deg);
+      -khtml-transform: translate3d(760px, -140px, -2000px) rotatey(-45deg);
+      -moz-transform: translate3d(760px, -140px, -2000px) rotatey(-45deg);
+      -ms-transform: translate3d(760px, -140px, -2000px) rotatey(-45deg);
+      -o-transform: translate3d(760px, -140px, -2000px) rotatey(-45deg);
+      transform: translate3d(760px, -140px, -2000px) rotatey(-45deg); }
     .slider .slide:nth-child(9) {
       z-index: 2;
-      -webkit-transform: translate3d(805px, -250px, -2000px) rotatey(-45deg);
-      -khtml-transform: translate3d(805px, -250px, -2000px) rotatey(-45deg);
-      -moz-transform: translate3d(805px, -250px, -2000px) rotatey(-45deg);
-      -ms-transform: translate3d(805px, -250px, -2000px) rotatey(-45deg);
-      -o-transform: translate3d(805px, -250px, -2000px) rotatey(-45deg);
-      transform: translate3d(805px, -250px, -2000px) rotatey(-45deg); }
+      -webkit-transform: translate3d(805px, -190px, -2000px) rotatey(-45deg);
+      -khtml-transform: translate3d(805px, -190px, -2000px) rotatey(-45deg);
+      -moz-transform: translate3d(805px, -190px, -2000px) rotatey(-45deg);
+      -ms-transform: translate3d(805px, -190px, -2000px) rotatey(-45deg);
+      -o-transform: translate3d(805px, -190px, -2000px) rotatey(-45deg);
+      transform: translate3d(805px, -190px, -2000px) rotatey(-45deg); }
     .slider .slide:nth-child(10) {
       z-index: 1;
-      -webkit-transform: translate3d(850px, -300px, -2000px) rotatey(-45deg);
-      -khtml-transform: translate3d(850px, -300px, -2000px) rotatey(-45deg);
-      -moz-transform: translate3d(850px, -300px, -2000px) rotatey(-45deg);
-      -ms-transform: translate3d(850px, -300px, -2000px) rotatey(-45deg);
-      -o-transform: translate3d(850px, -300px, -2000px) rotatey(-45deg);
-      transform: translate3d(850px, -300px, -2000px) rotatey(-45deg); }
+      -webkit-transform: translate3d(850px, -240px, -2000px) rotatey(-45deg);
+      -khtml-transform: translate3d(850px, -240px, -2000px) rotatey(-45deg);
+      -moz-transform: translate3d(850px, -240px, -2000px) rotatey(-45deg);
+      -ms-transform: translate3d(850px, -240px, -2000px) rotatey(-45deg);
+      -o-transform: translate3d(850px, -240px, -2000px) rotatey(-45deg);
+      transform: translate3d(850px, -240px, -2000px) rotatey(-45deg); }
     .slider .slide.active {
       z-index: 20;
       -webkit-transform: translate3d(-500px, 0, -1300px) rotatey(0deg);
@@ -176,5 +176,74 @@ img {
         transform: translate3d(-500px, 0, -1300px) rotatey(0deg); }
     .slider .slide:hover {
       z-index: 20; }
+
+.back_button {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  background: white;
+  width: 30px;
+  height: 30px;
+  opacity: .5;
+  -webkit-border-radius: 50%;
+  -khtml-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-transition: all 0.5s ease;
+  -khtml-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-box-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
+  -khtml-box-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
+  -moz-box-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
+  -ms-box-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
+  -o-box-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 2px rgba(255, 255, 255, 0.5); }
+  .back_button:hover {
+    opacity: 1;
+    -webkit-box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+    -khtml-box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+    -moz-box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+    -ms-box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+    -o-box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.5); }
+    .back_button:hover .message {
+      width: 33px;
+      color: #111;
+      padding: .25rem .5rem; }
+  .back_button img {
+    max-width: 100%; }
+  .back_button .message {
+    position: absolute;
+    top: 1px;
+    left: 105%;
+    background: white;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: comic sans;
+    width: 0;
+    color: transparent;
+    -webkit-transition: width 0.12s ease, color 0.2s 0.12s ease;
+    -khtml-transition: width 0.12s ease, color 0.2s 0.12s ease;
+    -moz-transition: width 0.12s ease, color 0.2s 0.12s ease;
+    -ms-transition: width 0.12s ease, color 0.2s 0.12s ease;
+    -o-transition: width 0.12s ease, color 0.2s 0.12s ease;
+    transition: width 0.12s ease, color 0.2s 0.12s ease;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
+    -khtml-box-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
+    -moz-box-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
+    -ms-box-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
+    -o-box-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 2px rgba(255, 255, 255, 0.5); }
 
 /*# sourceMappingURL=main.css.map */

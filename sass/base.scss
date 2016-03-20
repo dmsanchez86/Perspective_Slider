@@ -5,6 +5,10 @@
 
 body,html{ @include init; }
 
+body{
+    @include gradient(radial,(center, #9fa8da, #5c6bc0));
+}
+
 img{
     max-width: 100%;
     height: auto;
@@ -29,29 +33,29 @@ img{
         @include transform(translate3d(0,0,-1300px) rotatey(45deg));
         
         img{
-            border: solid 5px white;
-            @include box-shadow(0 0 15px #111);
+            border: solid 8px white;
+            @include box-shadow(0 0 15px rgba(0,0,0,.3));
             @include border-radius(5px);
         }
         
-        $stepY: 50px;
-        $stepX: 45px;
+        $stepY: 40px;
+        $stepX: 40px;
         $decrement: 10;
         
         @for $i from 1 through 10 {
             &:nth-child(#{$i}){ 
                 z-index: $decrement;
-                @include transform(translate3d((400 + ($stepX * $i)), -(-260 + ($stepY * $i)), -2000px) rotatey(-45deg));
+                @include transform(translate3d((400 + ($stepX * $i)), -(-200 + ($stepY * $i)), -2000px) rotatey(-35deg) scale(.5));
                 $decrement : $decrement - 1;
             }
         }
         
         &.active{
             z-index: 20;
-            @include transform(translate3d(-500px,0,-1300px) rotatey(0deg));
+            @include transform(translate3d(-500px,0,-1300px) rotatey(0deg) scale(1));
             
             &:hover{
-                @include transform(translate3d(-500px,0,-1300px) rotatey(0deg));
+                @include transform(translate3d(-500px,0,-1300px) rotatey(0deg) scale(1));
             }
         }
         

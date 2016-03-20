@@ -5,4 +5,60 @@
 
 body,html{ @include init; }
 
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.slider{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    @include perspective(2000px);
+    @include perspective-origin(50% 50%);
+    
+    .slide{
+        width: 800px;
+        max-width: 100%;
+        max-height: 550px;
+        cursor: pointer;
+        @include box-sizing(border-box);
+        @include transition((transform .35s ease-in));
+        @include center-absolute(absolute);
+        @include transform(translate3d(0,0,-1300px) rotatey(45deg));
+        
+        img{
+            border: solid 5px white;
+            @include box-shadow(0 0 15px #111);
+            @include border-radius(5px);
+        }
+        
+        $stepY: 50px;
+        $stepX: 45px;
+        $decrement: 10;
+        
+        @for $i from 1 through 10 {
+            &:nth-child(#{$i}){ 
+                z-index: $decrement;
+                @include transform(translate3d((400 + ($stepX * $i)), -(-200 + ($stepY * $i)), -2000px) rotatey(-45deg));
+                $decrement : $decrement - 1;
+            }
+        }
+        
+        &.active{
+            z-index: 20;
+            @include transform(translate3d(-500px,0,-1300px) rotatey(0deg));
+            
+            &:hover{
+                @include transform(translate3d(-500px,0,-1300px) rotatey(0deg));
+            }
+        }
+        
+        &:hover{
+            z-index: 20;
+        }
+    }
+}
+
 @import 'keyframes';

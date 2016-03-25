@@ -1,0 +1,118 @@
+@media (max-width: 1150px){
+    .slider{
+        @include perspective(1500px);
+    }
+}
+
+@media (max-width: 1000px){
+    .slider{
+        @include perspective(1000px);
+    }
+}
+
+@media (max-width: 900px){
+    .slider{
+        @include perspective(1100px);
+        
+        .slide{
+            
+            &.active{
+                @include transform(translate3d(-350px,0,-1300px) rotatey(0deg) scale(1) !important);
+            }
+        }
+    }
+}
+@media (max-width: 700px){
+    .slider{
+        @include perspective(1200px);
+        
+        .slide{
+            max-height: 450px;
+            
+            &.active{
+                @include transform(translate3d(-0px, -210px, -650px) rotatey(0deg) scale(1) !important);
+            }
+            
+            $stepY: 40px;
+            $stepX: 40px;
+            $decrement: 10;
+            
+            @for $i from 1 through 10 {
+                &:nth-child(#{$i}){ 
+                    z-index: $decrement;
+                    @include transform(translate3d((-150 + ($stepX * $i)), -(-550 + ($stepY * $i)), -2000px) rotatey(-35deg) scale(.5));
+                    
+                    &:hover{
+                        @include transform(translate3d((-150 + ($stepX * $i)), -(-550 + ($stepY * $i) + 20), -2000px) rotatey(-35deg) scale(.5));
+                    }
+                    
+                    $decrement : $decrement - 1;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 400px){
+    .slider{
+        @include perspective(1500px);
+        
+        .slide{
+            max-height: 240px;
+            
+            &.active{
+                @include transform(translate3d(0px, -150px, -650px) rotatey(0deg) scale(1) !important);
+            }
+            
+            $stepY: 20px;
+            $stepX: 20px;
+            $decrement: 10;
+            
+            @for $i from 1 through 10 {
+                &:nth-child(#{$i}){ 
+                    z-index: $decrement;
+                    @include transform(translate3d((-150 + ($stepX * $i)), -(-200 + ($stepY * $i)), -2000px) rotatey(-35deg) scale(.4));
+                    
+                    &:hover{
+                        @include transform(translate3d((-150 + ($stepX * $i)), -(-200 + ($stepY * $i) + 10), -2000px) rotatey(-35deg) scale(.4));
+                    }
+                    
+                    $decrement : $decrement - 1;
+                }
+            }
+        }
+        
+        .controls{
+            bottom: 1rem;
+        }
+    }
+}
+
+@media (max-width: 340px){
+    .slider{
+        
+        .slide{
+            
+            &.active{
+                @include transform(translate3d(0px, -120px, -650px) rotatey(0deg) scale(1) !important);
+            }
+            
+            $stepY: 20px;
+            $stepX: 20px;
+            $decrement: 10;
+            
+            @for $i from 1 through 10 {
+                &:nth-child(#{$i}){ 
+                    z-index: $decrement;
+                    @include transform(translate3d((-100 + ($stepX * $i)), -(-250 + ($stepY * $i)), -2000px) rotatey(-35deg) scale(.4));
+                    
+                    &:hover{
+                        @include transform(translate3d((-100 + ($stepX * $i)), -(-250 + ($stepY * $i) + 10), -2000px) rotatey(-35deg) scale(.4));
+                    }
+                    
+                    $decrement : $decrement - 1;
+                }
+            }
+        }
+    }
+}

@@ -46,11 +46,17 @@ img{
             &:nth-child(#{$i}){ 
                 z-index: $decrement;
                 @include transform(translate3d((400 + ($stepX * $i)), -(-200 + ($stepY * $i)), -2000px) rotatey(-35deg) scale(.5));
+                
+                &:hover{
+                    @include transform(translate3d((400 + ($stepX * $i)), -(-200 + ($stepY * $i) + 20), -2000px) rotatey(-35deg) scale(.5));
+                }
+                
                 $decrement : $decrement - 1;
             }
         }
         
         &.active{
+            cursor: default;
             z-index: 20;
             @include transform(translate3d(-500px,0,-1300px) rotatey(0deg) scale(1));
             
@@ -61,6 +67,8 @@ img{
         
         &:hover{
             z-index: 20;
+            
+            
         }
     }
     
@@ -84,10 +92,12 @@ img{
             @include transition(all .5s ease-in);
             @include border-radius(50%);
             @include text-shadow(0 0 1px #111);
+            @include box-shadow(0 0 4px #111);
             
             &.active,
             &:hover{
                 background: transparent;
+                @include transform(scale(.9));
             }
             
             &:focus{
@@ -140,4 +150,5 @@ img{
     }
 }
 
+@import 'queries';
 @import 'keyframes';
